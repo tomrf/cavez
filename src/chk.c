@@ -66,7 +66,6 @@ void chk_all(void)
     fprintf(stderr, "%d or more required data files are missing, aborting.\n", errors);
     exit(1);
   }
-  //LOLDEBIAN
 }
 
 int chk_file(char *dir, char *filename) {
